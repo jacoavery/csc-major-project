@@ -21,4 +21,4 @@ https://www.worldhealth.net/news/benefits-rowing-according-science/
 https://www.youtube.com/c/AramTraining?app=desktop
 https://www.youtube.com/@ericmurray-kiwipairindoorr2302/videos
 
-Please contact me @jacoavery@gmail.com if you have any inquiries or wish to mentor me through this process and have expertise in any field that can benefit or improve this project.
+Please contact me at jacoavery@gmail.com if you have any inquiries or wish to mentor me through this process and have expertise in any field that can benefit or improve this project.
