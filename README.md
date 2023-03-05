@@ -3,7 +3,7 @@ My project proposal is a web based application (name not chosen) which web-based
 
 
 ###  Problem Statement:
-The problem that I aim to address and solve is creating a much more convenient way of scheduling training and helping /teaching those who want to learn how to erg in depth but do not know how to start. See here for research on injuries from off-water training and biomechanics produced by Timothy M. Hosea University Orthopaedic Associates, LLC, University of Medicine and Dentistry of New Jersey–Robert Wood Johnson Medical School, New Brunswick, New Jersey & Jo A. Hannafin Hospital for Special Surgery, Weill Medical College of Cornell University, New York, New York, [here]https://pubmed.ncbi.nlm.nih.gov/23016093/
+The problem that I aim to address and solve is creating a much more convenient way of scheduling training and helping /teaching those who want to learn how to erg in depth but do not know how to start. See here for research on injuries from off-water training and biomechanics produced by Timothy M. Hosea University Orthopaedic Associates, LLC, University of Medicine and Dentistry of New Jersey–Robert Wood Johnson Medical School, New Brunswick, New Jersey & Jo A. Hannafin Hospital for Special Surgery, Weill Medical College of Cornell University, New York, New York, [here](https://pubmed.ncbi.nlm.nih.gov/23016093/)
 
 
 ### Proposed Solution:
