@@ -1,0 +1,295 @@
+<!DOCTYPE html><html>
+<head><meta charset="utf-8">
+		<style>
+		body {
+			background-image: url("IMG_9545.jpg");
+			background-size: cover;
+		}
+		
+		.center {
+			text-align: center;
+		}
+		
+		h1 {
+			color: rgb(0, 0, 0);
+			font-size: 64px;
+			font-family: "sans-serif typeface family", "Acumin Pro Extra";
+		}
+
+
+		.space {
+			padding-top: 65.5px;
+		}
+		
+.sidenavheader {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 15px;
+    top: -10px
+}          
+body, h1, h2, h3, h4, h5 {
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.img {
+position:  absolute;
+left: 14px;
+top: 7px;
+}
+
+.main_header{
+left: 60px;
+top: -60px;
+position: fixed;
+}
+body {
+font-family: "Lato", sans-serif;
+}
+.help{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+    .sidebar {
+width: 180px;
+height: 100%;
+background-color: #3e4c5e;
+padding: 20px;
+position: fixed;
+top: 0px;
+left: 0;
+z-index: 1;
+padding-top: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+background-color: rgba(0, 0, 0, 0.1);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-size: 15px;
+cursor: pointer;
+
+}
+
+.accordion {
+background-color: #3e4c5e;
+color: #ffffff;
+cursor: pointer;
+top: -20px;
+padding: 10px;
+font-size: 20px;
+width: 100%;
+text-align: left;
+cursor: pointer;
+
+border: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+outline: none;
+}
+
+.active, .accordion:hover {
+background-color: #3e4c5e;
+color: rgb(183, 176, 176);
+cursor: pointer;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+.panel {
+padding: 0 10px;
+background-color: #3e4c5e;
+display: none;
+cursor: pointer;
+
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+
+}
+
+.panel a {
+display: block;
+padding: 10px;
+text-decoration: none;
+cursor: pointer;
+
+color: #ccc;
+}
+
+.panel.active {
+max-height: 500px; /* Adjust this value to match the height of your content */
+}
+.panel a:hover{
+color: #ffffff;
+}
+.openbtn {
+background-color: #ffffff;
+color: black;
+cursor: pointer;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+font-size: 30px;
+position: fixed;
+top: 80px;
+cursor: pointer;
+
+left: 1px;
+}
+
+.openbtn:hover {
+background-color: #f1f1f1;
+}
+
+.closebtn {
+position: relative;
+top: 10px;
+cursor: pointer;
+
+right: -220px;
+font-size: 30px;
+color: #000000;
+cursor: pointer;
+border: none;
+background-color: transparent;
+}
+
+.closebtn:hover {
+color: #000000;
+}
+
+hr {
+border-color: #ccc;
+}
+.openbtn {
+  position: relative;
+  top: -50px;
+}
+
+
+
+
+.main-container {
+  z-index: 2;
+}
+
+.devices {
+  z-index: -2;
+}
+
+
+	</style>
+
+
+</head>
+
+</html>
+<html lang="en-US">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <head>
+
+        
+        <style type="text/css"></style>
+        <meta name="author" content="JA17181">
+        <meta name="description" content="The proposed web-based application for rowers provides coaching and training advice, injury prevention, and scheduling assistance through a calendar and group chats. The application aims to improve erging ability, offer race preparation advice, and provide guidance on erg technique and fitness benefits.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Infomation">
+    </head>
+  
+        
+    <div class="sidebar" id="mySidebar">
+      <h3c class="sidenavheader">LOGO GOES HERE</h3>
+      <hr>
+      <button class="accordion">Infomation</button>
+      <div class="panel">
+        <a onclick="window.location.href='/how-to-row'">How To Row</a>
+        <a onclick="window.location.href='/streaching'">Streaching</a>
+        <a onclick="window.location.href='/pre-race'">Pre-Race</a>
+      </div>
+      <hr>
+      <button class="accordion">On Water</button>
+      <div class="panel">
+        <a onclick="window.location.href='/technique'">Technique</a>
+        <a onclick="window.location.href='/warm-up'">Warm-Up</a>
+        <a onclick="window.location.href='/rigging'">Rigging</a>
+      </div>
+      <hr>
+      <button class="accordion">Groups</button>
+      <div class="panel">
+        <a onclick="window.location.href='/create-group'">Create Group</a>
+        <a onclick="window.location.href='/join-group'">Join Group</a>
+        <a onclick="window.loaction.herf='/your-groups'">Your Groups</a>
+      </div>
+      <hr>
+      <button class="accordion">Calendar</button>
+      <div class="panel">
+        <a onclick="window.location.href='/create-new-calendar'">Create New Calendar</a>
+        <a onclick="window.location.href='/join-calendar'">Join Calendar</a>
+        <a onclick="window.location.href='/delete-calendar'">Delete Calendar</a>
+	 </div>
+    </div>
+    
+<script>
+var accordions = document.getElementsByClassName("accordion");
+for (var i = 0; i < accordions.length; i++) {
+accordions[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+  }
+});
+}
+</script>
+<script>
+	
+function toggleNav() {
+  var sidebar = document.getElementById("mySidebar");
+  if (sidebar.style.display === "block") {
+    sidebar.style.display = "none";
+  } else {
+    sidebar.style.display = "block";
+  }
+}
+
+close.onclick = function() {
+         
+  sidebar.style.display = "none"
+}
+
+
+
+window.onclick = function(event) {
+  if (event.target == sidebar) {
+    sidebar.style.display = "none";
+  }
+}        
+
+
+x	
+</script>
+<body>
+	<div class="center">
+		<div class="space"></div>
+			<h1>Rowing Hard or Hardly Rowing</h1>
+			<p>yeah the boys </p>
+	</div>
+</body>
+</html>
+
+

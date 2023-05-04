@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+  <html lang="en-US">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <head>
+
+        <meta charset="utf-8">
+        <style type="text/css"></style>
+        <meta name="author" content="JA17181">
+        <meta name="description" content="The proposed web-based application for rowers provides coaching and training advice, injury prevention, and scheduling assistance through a calendar and group chats. The application aims to improve erging ability, offer race preparation advice, and provide guidance on erg technique and fitness benefits.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Infomation">
+    </head>
+    <button class="openbtn" onclick="toggleNav()">☰ </button>
+        
+    <div class="sidebar" id="mySidebar">
+      <button class="closebtn" onclick="toggleNav()">×</button>
+      <h3c class="sidenavheader">Options</h3>
+      <hr>
+      <button class="accordion">Infomation</button>
+      <div class="panel">
+        <a onclick="window.location.href='/how-to-row'">How To Row</a>
+        <a onclick="window.location.href='/streaching'">Streaching</a>
+        <a onclick="window.location.href='/pre-race'">Pre-Race</a>
+      </div>
+      <hr>
+      <button class="accordion">On Water</button>
+      <div class="panel">
+        <a onclick="window.location.href='/technique'">Technique</a>
+        <a onclick="window.location.href='/warm-up'">Warm-Up</a>
+        <a onclick="window.location.href='/rigging'">Rigging</a>
+      </div>
+      <hr>
+      <button class="accordion">Groups</button>
+      <div class="panel">
+        <a onclick="window.location.href='/create-group'">Create Group</a>
+        <a onclick="window.location.href='/join-group'">Join Group</a>
+        <a onclick="window.loaction.herf='/your-groups'">Your Groups</a>
+      </div>
+      <hr>
+      <button class="accordion">Admins</button>
+      <div class="panel">
+        <a onclick="window.location.href='/admin'">View Admin Options</a>
+        <a onclick="window.location.href='/dev-admin'">Dev Admin Page</a>
+        <a onclick="window.location.href='/device-logs'">View Device Logs</a>
+
+      </div>
+      <div class="help">
+        <a onclick="window.location.href='/help'">Help</a>
+      </div>
+    </div>
+    
+<script>
+var accordions = document.getElementsByClassName("accordion");
+for (var i = 0; i < accordions.length; i++) {
+accordions[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+  }
+});
+}
+</script>
+
+</html>
+<h1>Login page</h1>
+<form action="/login-page" method="post">
+    <label for="user_name">Username:</label>
+    <input type="text" id="user_name" name="user_name"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Login">
+  </form>

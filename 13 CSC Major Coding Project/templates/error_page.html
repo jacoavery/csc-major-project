@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+
+	<title>Error</title>
+	<style>
+		
+        .container {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #d1d0d0;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+
+  /* Center the container horizontally */
+  margin: 0 auto;
+
+  /* Center the container vertically */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Oops! Something went wrong.</h1>
+		<p>An error occurred while processing your request. Here's something that might help:</p>
+		<ul>
+			<li><strong>Error code:</strong> {{ error_code }}</li>
+			<li><strong>Error message:</strong> {{ error_message }}</li>
+		</ul>
+        <button onclick="window.location.href='/menu'"style="background-color: red; color: white; padding: 5px 10px; border: none; border-radius: 3px;">Home Page</button>
+
+	</div>
+</body>
+</html>

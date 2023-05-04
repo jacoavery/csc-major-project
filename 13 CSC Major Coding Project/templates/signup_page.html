@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+  <html lang="en-US">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <head>
+
+        <meta charset="utf-8">
+        <style type="text/css"></style>
+        <meta name="author" content="LG17057">
+        <meta name="description" content="A website framework designed for scholarship, with the aim to provide a device logbook for students using rental devices">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="DeviceLog">
+        
+<script>
+  var accordions = document.getElementsByClassName("accordion");
+  for (var i = 0; i < accordions.length; i++) {
+    accordions[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+</script>
+</html>
+<h1>Sign up page</h1>
+
+
+    <title>Register Account</title>
+  
+    <h1>Register</h1>
+    <form action="/signup-page" method="POST">
+      <label for="user_name">Username:</label>
+      <input type="text" id="user_name" name="user_name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Register">
+    </form>
